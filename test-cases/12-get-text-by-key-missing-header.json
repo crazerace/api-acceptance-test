@@ -1,0 +1,11 @@
+{
+    "name": "Get text by key without language header",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/key/API_TEST_KEY_1",
+        "useToken": false
+    },
+    "response": {
+        "status": 400
+    }
+}

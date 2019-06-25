@@ -1,0 +1,11 @@
+{
+    "name": "Get text by group without language header",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/group/API_TEST_GROUP",
+        "useToken": false
+    },
+    "response": {
+        "status": 400
+    }
+}
