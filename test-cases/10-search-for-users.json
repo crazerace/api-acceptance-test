@@ -1,0 +1,11 @@
+{
+    "name": "Search for users",
+    "request": {
+        "method": "GET",
+        "path": "/api/userservice/v1/users?query=userO",
+        "useToken": true
+    },
+    "response": {
+        "status": 200
+    }
+}

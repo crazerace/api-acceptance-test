@@ -1,0 +1,11 @@
+{
+    "name": "Delete user: userOne",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/userservice/v1/users/${userOne.id}",
+        "useToken": true
+    },
+    "response": {
+        "status": 200
+    }
+}

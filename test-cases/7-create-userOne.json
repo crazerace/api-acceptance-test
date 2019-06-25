@@ -1,0 +1,22 @@
+{
+    "name": "Create user: userOne",
+    "request": {
+        "method": "POST",
+        "path": "/api/userservice/v1/users",
+        "body": {
+            "username": "userOne",
+            "password": "08817bceab9097044ce2f0814708ed4aa0c7e2c1",
+            "repPassword": "08817bceab9097044ce2f0814708ed4aa0c7e2c1"
+        },
+        "useToken": false
+    },
+    "response": {
+        "status": 200
+    },
+    "setEnv": [
+        {
+            "envKey": "userOne.id",
+            "responseKey": "userId"
+        }
+    ]
+}
