@@ -1,0 +1,16 @@
+{
+    "name": "Get text in SWEDISH by key that only exists for swedish",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/key/API_TEST_KEY_ONLY_SWEDISH",
+        "headers": {
+            "Accept-Language": "sv"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "API_TEST_KEY_ONLY_SWEDISH": "val-only-sv"
+        }
+    }
+}

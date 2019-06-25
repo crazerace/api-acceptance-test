@@ -2,8 +2,7 @@
     "name": "Search for users without authorization",
     "request": {
         "method": "GET",
-        "path": "/api/userservice/v1/users?query=userO",
-        "useToken": false
+        "path": "/api/userservice/v1/users?query=userO"
     },
     "response": {
         "status": 401

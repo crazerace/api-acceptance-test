@@ -2,8 +2,7 @@
     "name": "Check Text Service health",
     "request": {
         "method": "GET",
-        "path": "/api/textservice/health",
-        "useToken": false
+        "path": "/api/textservice/health"
     },
     "response": {
         "status": 200

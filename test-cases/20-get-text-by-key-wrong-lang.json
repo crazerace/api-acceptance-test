@@ -1,0 +1,13 @@
+{
+    "name": "Get text by key Unsupported language",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/key/API_TEST_KEY_2",
+        "headers": {
+            "Accept-Language": "xy"
+        }
+    },
+    "response": {
+        "status": 400
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Get text by group ENGLISH",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/group/API_TEST_GROUP",
+        "headers": {
+            "Accept-Language": "en"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "API_TEST_KEY_1": "val-1-en",
+            "API_TEST_KEY_2": "val-2-en"
+        }
+    }
+}

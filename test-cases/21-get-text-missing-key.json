@@ -1,0 +1,13 @@
+{
+    "name": "Get text by missing key",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/key/API_TEST_MISSING_KEY",
+        "headers": {
+            "Accept-Language": "sv"
+        }
+    },
+    "response": {
+        "status": 404
+    }
+}

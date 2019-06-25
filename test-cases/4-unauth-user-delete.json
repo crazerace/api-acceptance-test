@@ -2,8 +2,7 @@
     "name": "Delete user without being logged in",
     "request": {
         "method": "DELETE",
-        "path": "/api/userservice/v1/users/1e9e8257-5161-40bb-8901-d88f35c6714d",
-        "useToken": false
+        "path": "/api/userservice/v1/users/1e9e8257-5161-40bb-8901-d88f35c6714d"
     },
     "response": {
         "status": 401

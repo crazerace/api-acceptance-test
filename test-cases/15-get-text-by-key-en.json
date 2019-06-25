@@ -1,0 +1,16 @@
+{
+    "name": "Get text by key ENGLISH",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/key/API_TEST_KEY_1",
+        "headers": {
+            "Accept-Language": "en"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "API_TEST_KEY_1": "val-1-en"
+        }
+    }
+}

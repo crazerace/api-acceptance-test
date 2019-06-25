@@ -3,7 +3,9 @@
     "request": {
         "method": "DELETE",
         "path": "/api/userservice/v1/users/${userOne.id}",
-        "useToken": true
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
     },
     "response": {
         "status": 200

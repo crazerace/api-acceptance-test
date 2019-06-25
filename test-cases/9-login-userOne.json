@@ -6,15 +6,17 @@
         "body": {
             "username": "userOne",
             "password": "08817bceab9097044ce2f0814708ed4aa0c7e2c1"
-        },
-        "useToken": false
+        }
     },
     "response": {
-        "status": 200
+        "status": 200,
+        "body": {
+            "userId": "${userOne.id}"
+        }
     },
     "setEnv": [
         {
-            "envKey": "authToken",
+            "envKey": "userOne.token",
             "responseKey": "token"
         }
     ]

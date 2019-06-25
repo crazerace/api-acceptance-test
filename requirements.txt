@@ -1,1 +1,1 @@
-https://github.com/CzarSimon/resttest/archive/0.5.zip
+https://github.com/CzarSimon/resttest/archive/0.6.zip

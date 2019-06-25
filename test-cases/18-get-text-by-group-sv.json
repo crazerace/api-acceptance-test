@@ -1,0 +1,17 @@
+{
+    "name": "Get text by group SWEDISH",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/group/API_TEST_GROUP",
+        "headers": {
+            "Accept-Language": "sv"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "API_TEST_KEY_1": "val-1-sv",
+            "API_TEST_KEY_2": "val-2-sv"
+        }
+    }
+}

@@ -2,8 +2,7 @@
     "name": "Check Game Service health",
     "request": {
         "method": "GET",
-        "path": "/api/gameservice/health",
-        "useToken": false
+        "path": "/api/gameservice/health"
     },
     "response": {
         "status": 200

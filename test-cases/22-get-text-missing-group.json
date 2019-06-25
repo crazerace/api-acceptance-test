@@ -1,0 +1,13 @@
+{
+    "name": "Get text by missing group",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/v1/texts/group/API_TEST_MISSING_GROUP",
+        "headers": {
+            "Accept-Language": "sv"
+        }
+    },
+    "response": {
+        "status": 404
+    }
+}
