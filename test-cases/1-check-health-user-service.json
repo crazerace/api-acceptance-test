@@ -1,0 +1,11 @@
+{
+    "name": "Check User Service health",
+    "request": {
+        "method": "GET",
+        "path": "/api/userservice/health",
+        "useToken": false
+    },
+    "response": {
+        "status": 200
+    }
+}

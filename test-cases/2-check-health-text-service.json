@@ -1,0 +1,11 @@
+{
+    "name": "Check Text Service health",
+    "request": {
+        "method": "GET",
+        "path": "/api/textservice/health",
+        "useToken": false
+    },
+    "response": {
+        "status": 200
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Check Game Service health",
+    "request": {
+        "method": "GET",
+        "path": "/api/gameservice/health",
+        "useToken": false
+    },
+    "response": {
+        "status": 200
+    }
+}
