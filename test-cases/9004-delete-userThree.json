@@ -1,0 +1,13 @@
+{
+    "name": "Delete user: userThree",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/userservice/v1/users/${userThree.id}",
+        "headers": {
+            "Authorization": "Bearer ${userThree.token}"
+        }
+    },
+    "response": {
+        "status": 200
+    }
+}

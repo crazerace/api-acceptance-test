@@ -1,0 +1,25 @@
+{
+    "name": "Create user: userTwo",
+    "request": {
+        "method": "POST",
+        "path": "/api/userservice/v1/users",
+        "body": {
+            "username": "userTwo",
+            "password": "d997295ff2b4e3949cfae2509e32c3fbc4e90f0b",
+            "repPassword": "d997295ff2b4e3949cfae2509e32c3fbc4e90f0b"
+        }
+    },
+    "response": {
+        "status": 200
+    },
+    "setEnv": [
+        {
+            "envKey": "userTwo.id",
+            "responseKey": "userId"
+        },
+        {
+            "envKey": "userTwo.token",
+            "responseKey": "token"
+        }
+    ]
+}

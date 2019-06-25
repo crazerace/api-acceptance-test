@@ -1,0 +1,13 @@
+{
+    "name": "Delete already deleted user: userOne",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/userservice/v1/users/${userOne.id}",
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 400
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Attempt to delete wrong user. userOne tries to delete userTwo",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/userservice/v1/users/${userTwo.id}",
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 403
+    }
+}

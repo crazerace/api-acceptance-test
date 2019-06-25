@@ -1,0 +1,25 @@
+{
+    "name": "Create user: userThree",
+    "request": {
+        "method": "POST",
+        "path": "/api/userservice/v1/users",
+        "body": {
+            "username": "userThree",
+            "password": "49472958cadd8d844ec7c9ad36e3a2ab63d4f1f8",
+            "repPassword": "49472958cadd8d844ec7c9ad36e3a2ab63d4f1f8"
+        }
+    },
+    "response": {
+        "status": 200
+    },
+    "setEnv": [
+        {
+            "envKey": "userThree.id",
+            "responseKey": "userId"
+        },
+        {
+            "envKey": "userThree.token",
+            "responseKey": "token"
+        }
+    ]
+}
