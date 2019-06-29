@@ -1,0 +1,16 @@
+{
+    "name": "Create game with wrong type on name",
+    "request": {
+        "method": "POST",
+        "path": "/api/gameservice/v1/games",
+        "body": {
+            "name": 1
+        },
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 400
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Delete temp game by owner",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/gameservice/v1/games/${tempGame.id}",
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 200
+    }
+}

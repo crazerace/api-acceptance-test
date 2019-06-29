@@ -1,0 +1,13 @@
+{
+    "name": "Delete game that does not exits",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/gameservice/v1/games/random-6d4d0aa4-missing-game",
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 428
+    }
+}

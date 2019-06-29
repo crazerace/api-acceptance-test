@@ -1,5 +1,5 @@
 {
-    "name": "Create user: userOne",
+    "name": "Login user: userOne",
     "request": {
         "method": "POST",
         "path": "/api/userservice/v1/login",

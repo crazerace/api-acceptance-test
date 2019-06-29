@@ -1,0 +1,13 @@
+{
+    "name": "Attempt delete game by a non-owner",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/gameservice/v1/games/${tempGame.id}",
+        "headers": {
+            "Authorization": "Bearer ${userTwo.token}"
+        }
+    },
+    "response": {
+        "status": 403
+    }
+}

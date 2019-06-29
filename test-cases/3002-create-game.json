@@ -1,0 +1,25 @@
+{
+    "name": "Create temporary game",
+    "request": {
+        "method": "POST",
+        "path": "/api/gameservice/v1/games",
+        "body": {
+            "name": "api-test-game"
+        },
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "name": "api-test-game"
+        }
+    },
+    "setEnv": [
+        {
+            "envKey": "tempGame.id",
+            "responseKey": "id"
+        }
+    ]
+}
