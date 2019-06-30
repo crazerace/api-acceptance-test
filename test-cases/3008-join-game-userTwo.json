@@ -1,0 +1,13 @@
+{
+    "name": "Join test game: userTwo",
+    "request": {
+        "method": "POST",
+        "path": "/api/gameservice/v1/games/${testGame.id}/members",
+        "headers": {
+            "Authorization": "Bearer ${userTwo.token}"
+        }
+    },
+    "response": {
+        "status": 200
+    }
+}
