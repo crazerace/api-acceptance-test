@@ -1,0 +1,21 @@
+{
+    "name": "Create test game",
+    "request": {
+        "method": "POST",
+        "path": "/api/gameservice/v1/games",
+        "body": {
+            "id": "${testGame.id}",
+            "name": "api-test-game"
+        },
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "id": "${testGame.id}",
+            "name": "api-test-game"
+        }
+    }
+}

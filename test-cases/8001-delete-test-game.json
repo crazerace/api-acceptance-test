@@ -1,0 +1,13 @@
+{
+    "name": "Delete test game",
+    "request": {
+        "method": "DELETE",
+        "path": "/api/gameservice/v1/games/${testGame.id}",
+        "headers": {
+            "Authorization": "Bearer ${userOne.token}"
+        }
+    },
+    "response": {
+        "status": 200
+    }
+}

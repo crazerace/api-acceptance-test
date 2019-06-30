@@ -1,0 +1,17 @@
+{
+    "name": "Search for test game",
+    "request": {
+        "method": "GET",
+        "path": "/api/gameservice/v1/games/shortcode/${testGame.shortCode}",
+        "headers": {
+            "Authorization": "Bearer ${userTwo.token}"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "id": "${testGame.id}",
+            "name": "api-test-game"
+        }
+    }
+}
