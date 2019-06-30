@@ -8,6 +8,18 @@
         }
     },
     "response": {
-        "status": 200
-    }
+        "status": 200,
+        "body": {
+            "userId": "${userThree.id}",
+            "gameId": "${testGame.id}",
+            "isAdmin": false,
+            "isReady": false
+        }
+    },
+    "setEnv": [
+        {
+            "envKey": "userThree.memberId",
+            "responseKey": "id"
+        }
+    ]
 }
