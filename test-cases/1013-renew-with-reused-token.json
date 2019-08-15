@@ -1,0 +1,14 @@
+{
+    "name": "Renew token with already used renew tokane for userThree",
+    "request": {
+        "method": "POST",
+        "path": "/api/userservice/v1/renew",
+        "body": {
+            "userId": "${userThree.id}",
+            "token": "${userThree.renewToken}"
+        }
+    },
+    "response": {
+        "status": 401
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Renew token: userThree",
+    "request": {
+        "method": "POST",
+        "path": "/api/userservice/v1/renew",
+        "body": {
+            "userId": "${userThree.id}",
+            "token": "${userThree.renewToken}"
+        }
+    },
+    "response": {
+        "status": 200,
+        "body": {
+            "userId": "${userThree.id}"
+        }
+    },
+    "setEnv": [
+        {
+            "envKey": "userThree.token",
+            "responseKey": "token"
+        }
+    ]
+}

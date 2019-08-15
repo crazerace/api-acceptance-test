@@ -20,6 +20,10 @@
         {
             "envKey": "userThree.token",
             "responseKey": "token"
+        },
+        {
+            "envKey": "userThree.renewToken",
+            "responseKey": "renewToken"
         }
     ]
 }
